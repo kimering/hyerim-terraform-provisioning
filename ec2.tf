@@ -1,4 +1,4 @@
-resource "aws_instance" "ec2" {
+resource "aws_instance" "ec2" 
   ami = "ami-0aab712d6363da7f9" # region sydney
   instance_type = var.instance_type
   key_name = var.key_pair_name
